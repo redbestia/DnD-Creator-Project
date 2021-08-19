@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 
-public class InputTextConrolerGornyPanelDataNazwaPsotaci : MonoBehaviour
+public class InputTextConrolerGornyPanelDataNazwaPostaci : MonoBehaviour
 {
 
 
