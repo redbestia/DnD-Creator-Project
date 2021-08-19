@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainStatsData : MonoBehaviour
+public class Notatki : MonoBehaviour
 {
-    float sila;
+    public List<string> ListaNotatek;
 }
