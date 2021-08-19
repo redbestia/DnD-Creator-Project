@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class GornyPanelData : MonoBehaviour
 {
-    [SerializeField] public string nazwaPostaci { get; set; } = "";
+    public string nazwaPostaci ="";
     public string Klasa = "";
     public int Poziom = 0;
     public string Rasa = "";
