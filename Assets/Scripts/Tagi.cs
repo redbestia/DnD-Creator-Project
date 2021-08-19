@@ -7,5 +7,6 @@ namespace UnityEngine
     public class Tagi : MonoBehaviour
     {
         public const string DataTag = "Data";
+        public const string MenuCanvasTag = "MenuCanvas";
     }
 }
