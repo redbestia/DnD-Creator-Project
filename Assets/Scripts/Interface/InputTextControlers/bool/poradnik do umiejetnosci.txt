@@ -1,0 +1,15 @@
+1.kopiujemy skrypt i zmieniamy wszedzie akrobatyke i zrecznosc na X i Y
+
+2.tworzymy button | text | modyfikator text 
+
+3.wkładamy button do listy w EdycjaUmiejetnosciButton
+
+--NASTĘPNE KROKI ODBYWAJĄ SIĘ W BUTTONIE--
+
+4. wkładamy skrypt ZmianaKoloru | AwakeUpdateText | BoolControlerUmiejetnosciDataX
+
+5.do BoolControlerUmiejetnosciDataX włóż modyfikator text
+
+6.do AwakeUpdateText włóż 2 x button i wybierz z niego funkcje PobierzBool i WyswietlModyfikator
+
+7.do On Clicka włóż 3 x button i wybierz z niego funkcję ZmienBool, PobierzBool i WyswietlModyfikator
