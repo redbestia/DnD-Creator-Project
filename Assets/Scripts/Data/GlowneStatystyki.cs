@@ -11,4 +11,5 @@ public class GlowneStatystyki : MonoBehaviour
     public int madrosc = 0;
     public int charyzma = 0;
     public int bieglosc = 0;
+    public string kosciWytrzymalosci = "";
 }

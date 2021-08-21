@@ -22,12 +22,5 @@ public class InputTextConrolerGornyPanelDataRasa : MonoBehaviour
             GetComponent<GornyPanelData>().Rasa = GetComponent<TMP_InputField>().text;
     }
 
-
-
-
-
-
-
-
 }
 

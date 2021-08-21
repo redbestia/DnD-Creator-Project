@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
+using System;
 
-public class InputTextConrolerGornyPanelDataNazwaPostaci : MonoBehaviour
+public class InputTextConrolerGornyPanelDataHPMax : MonoBehaviour
 {
 
 
@@ -13,14 +14,21 @@ public class InputTextConrolerGornyPanelDataNazwaPostaci : MonoBehaviour
     public void PobierzText()
     {
         GetComponent<TMP_InputField>().text = GameObject.
-            FindGameObjectWithTag(Tagi.DataTag).GetComponent<GornyPanelData>().nazwaPostaci;
+            FindGameObjectWithTag(Tagi.DataTag).GetComponent<GornyPanelData>().HPMax.ToString();
     }
     public void WyslijText()
     {
         _text.text = GetComponent<TMP_InputField>().text;
-        GameObject.FindGameObjectWithTag(Tagi.DataTag).
-            GetComponent<GornyPanelData>().nazwaPostaci = GetComponent<TMP_InputField>().text;
+       GameObject.FindGameObjectWithTag(Tagi.DataTag).
+            GetComponent<GornyPanelData>().HPMax = Convert.ToInt32(GetComponent<TMP_InputField>().text);
     }
-   
+
+
+
+
+
+
+
+
 }
- 
+

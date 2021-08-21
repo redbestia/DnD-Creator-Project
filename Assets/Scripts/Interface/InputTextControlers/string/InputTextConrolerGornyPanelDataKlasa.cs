@@ -23,11 +23,5 @@ public class InputTextConrolerGornyPanelDataKlasa : MonoBehaviour
     }
 
 
-
-
-
-
-
-
 }
 
