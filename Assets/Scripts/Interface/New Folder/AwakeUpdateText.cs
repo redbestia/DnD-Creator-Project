@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class AwakeUpdateText : MonoBehaviour
 {
     public UnityEvent updateText;
-    public void Awake()
+    public void Start()
     {
         updateText.Invoke();
 
