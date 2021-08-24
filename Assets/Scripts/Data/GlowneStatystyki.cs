@@ -11,8 +11,8 @@ public class GlowneStatystyki : MonoBehaviour
     public int madrosc = 0;
     public int charyzma = 0;
     public int bieglosc = 0;
-    public string kosciWytrzymalosci = "";
-
+    public int kosciWytrzymalosci = 0;
+    public int aktualnaIloscKosciWytrzymalosci = 0;
     public int Modfikator(int wynik)
     {
         return wynik / 2 - 5;

@@ -12,14 +12,14 @@ public class InputTextControlerStatystykiKoscWytrzymalosci : MonoBehaviour
     {
         GetComponent<TMP_InputField>().text = Convert.ToString(GameObject.
             FindGameObjectWithTag(Tagi.DataTag).GetComponent<GlowneStatystyki>()
-            .madrosc);
+            .kosciWytrzymalosci);
     }
     public void WyslijText()
     {
         _text.text = GetComponent<TMP_InputField>().text;
 
         GameObject.FindGameObjectWithTag(Tagi.DataTag).
-            GetComponent<GlowneStatystyki>().madrosc
+            GetComponent<GlowneStatystyki>().kosciWytrzymalosci
             = Convert.ToInt32(GetComponent<TMP_InputField>().text);
     }
 }
