@@ -5,5 +5,5 @@ using UnityEngine;
 public class KlasaPancerzaISzybkosc : MonoBehaviour
 {
     public string KlasaPancerza = "";
-    public float Szybkosc = 0;
+    public double Szybkosc = 0;
 }
