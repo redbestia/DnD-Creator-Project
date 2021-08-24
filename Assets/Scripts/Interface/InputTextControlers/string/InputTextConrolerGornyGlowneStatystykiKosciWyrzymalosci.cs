@@ -10,14 +10,14 @@ public class InputTextConrolerGornyGlowneStatystykiKosciWyrzymalosci : MonoBehav
 
 
 
-    //public void PobierzText()
-    //{
-    //    GetComponent<TextMeshProUGUI>().text = GameObject.
-    //        FindGameObjectWithTag(Tagi.DataTag).GetComponent<GlowneStatystyki>().kosciWytrzymalosci;
-    //}
-    //public void WyslijText()
-    //{
-    //    GameObject.FindGameObjectWithTag(Tagi.DataTag).
-    //         GetComponent<GlowneStatystyki>().kosciWytrzymalosci = GetComponent<TextMeshProUGUI>().text;
-    //}
+    public void PobierzText()
+    {
+        GetComponent<TextMeshProUGUI>().text = GameObject.
+            FindGameObjectWithTag(Tagi.DataTag).GetComponent<GlowneStatystyki>().kosciWytrzymalosci.ToString();
+    }
+    public void WyslijText()
+    {
+        GameObject.FindGameObjectWithTag(Tagi.DataTag).
+             GetComponent<GlowneStatystyki>().kosciWytrzymalosci = Convert.ToInt32(GetComponent<TextMeshProUGUI>().text);
+    }
 }
