@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 public enum CharakterWybor {PraworzadnyDobry, NeutralnyDobry, ChaotycznyDobry,PraworzadnyNeutralny, 
-    Neutralny, ChaotycznyNeutralny,PraworzadnyZly,NeutralnyZly,ChaotycznyZly}
+    Neutralny, ChaotycznyNeutralny, PraworzadnyZly, NeutralnyZly, ChaotycznyZly}
 public class OpisData : MonoBehaviour
 {
     public string Pochodzenie = "";
