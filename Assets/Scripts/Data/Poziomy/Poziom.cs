@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class Poziom : MonoBehaviour
 {
-    public int level;
     public List<KorzyscLubZdolnosc> ListaKorzysciAndZdolnosci;
+    public ArrayList ListaKorzysci_i_Zdolnosci;
 }
