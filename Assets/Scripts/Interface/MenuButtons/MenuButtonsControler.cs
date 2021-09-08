@@ -14,11 +14,13 @@ public class MenuButtonsControler : MonoBehaviour
             item.GetComponent<Canvas>().sortingOrder = 0;
 
 
-          item.GetComponent<Canvas>().enabled = false;
+            item.GetComponent<Canvas>().enabled = false;
             if (item.GetComponent<ScrollRect>() != null)
             {
                 item.GetComponent<ScrollRect>().enabled = false;
             }
+            item.GetComponent<Canvas>().renderMode = RenderMode.WorldSpace;
+            //item.GetComponent<Canvas>().targetDisplay = 1;
 
         }
         CanvasToShow.GetComponent<Canvas>().sortingOrder = 1;
@@ -27,5 +29,7 @@ public class MenuButtonsControler : MonoBehaviour
         {
             CanvasToShow.GetComponent<ScrollRect>().enabled = true;
         }
+        CanvasToShow.GetComponent<Canvas>().renderMode = RenderMode.ScreenSpaceOverlay;
+        //CanvasToShow.GetComponent<Canvas>().targetDisplay = 0;
     }
 }

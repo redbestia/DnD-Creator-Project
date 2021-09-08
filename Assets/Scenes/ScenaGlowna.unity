@@ -2037,7 +2037,7 @@ GameObject:
   - component: {fileID: 81441271}
   m_Layer: 5
   m_Name: OpisCanvas
-  m_TagString: MenuCanvas
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2089,7 +2089,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81441266}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -15673,7 +15673,7 @@ GameObject:
   - component: {fileID: 493600215}
   m_Layer: 5
   m_Name: UmiejetnosciIBieglosciCanvasPrzesuwajacy
-  m_TagString: Untagged
+  m_TagString: MenuCanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15738,7 +15738,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
 --- !u!224 &493600218
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21764,7 +21764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 218e1556fd86db646ba2aa7e274b5cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasToShow: {fileID: 1608795992}
+  CanvasToShow: {fileID: 493600217}
 --- !u!114 &719896966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29356,7 +29356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 218e1556fd86db646ba2aa7e274b5cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasToShow: {fileID: 81441269}
+  CanvasToShow: {fileID: 1479080533}
 --- !u!114 &953153007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32655,7 +32655,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049081768}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -32668,7 +32668,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
 --- !u!224 &1049081772
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35634,7 +35634,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116120508}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -35647,7 +35647,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
 --- !u!224 &1116120512
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44389,7 +44389,7 @@ GameObject:
   - component: {fileID: 1479080531}
   m_Layer: 5
   m_Name: "OpisCanvasPrzesuwaj\u0105cy"
-  m_TagString: Untagged
+  m_TagString: MenuCanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44454,7 +44454,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
 --- !u!224 &1479080534
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48411,7 +48411,7 @@ GameObject:
   - component: {fileID: 1608795994}
   m_Layer: 5
   m_Name: "Umiej\u0119tno\u015BciIBieg\u0142o\u015BciCanvas"
-  m_TagString: MenuCanvas
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48463,7 +48463,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608795989}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -52674,7 +52674,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772428409}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -52687,7 +52687,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
 --- !u!224 &1772428413
 RectTransform:
   m_ObjectHideFlags: 0
