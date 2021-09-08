@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Data
   - MenuCanvas
+  - DataOpisText
+  - DataPoziomText
+  - DataNazwaText
+  - 'DataPoziomText '
+  - KorzyscLubZdolnosc
   layers:
   - Default
   - TransparentFX
