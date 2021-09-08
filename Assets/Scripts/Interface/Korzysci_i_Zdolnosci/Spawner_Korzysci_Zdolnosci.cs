@@ -7,18 +7,25 @@ using UnityEngine.UI;
 public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
 {
     [SerializeField] Canvas _prefab;
-    [SerializeField] RectTransform _canvasKorzysciZdolnosci;
+    [SerializeField] RectTransform _canvasLista;
+    [SerializeField] RectTransform _tlo;
+    [SerializeField] RectTransform _canvasSkala;
 
     [SerializeField] float _xDefaultSpawn = 620;
     [SerializeField] float _yDefaultSpawn = 720;
     [SerializeField] float _yAddedHeight = 200;
+    [SerializeField] float _baseHeightTlo = 2300;
+    [SerializeField] float _baseHeightCanvasSkala = 2000;
 
-
+    float _startPositionY_CanvasSkala;
 
     Poziom _listOfKorzysciZdolnosci;
     TextMeshProUGUI[] _listOfTextMeshProUGUIs;
 
-    
+    private void Start()
+    {
+        _startPositionY_CanvasSkala = _canvasSkala.localPosition.y;
+    }
 
     public void SpwanListOfKorzysci_i_Zdolnosci()
     {
@@ -42,7 +49,10 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
             }
         }
 
+
         float _height = 0;
+        float allHeightForTlo = 0;
+
         int i = 0;
 
         foreach (var item in _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci)
@@ -50,13 +60,18 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
             
 
             Canvas newCanvas = Instantiate(_prefab);
-            
 
-            newCanvas.transform.SetParent(_canvasKorzysciZdolnosci);
+            newCanvas.transform.SetParent(_canvasLista);
 
 
             float ySpawn = _yDefaultSpawn - _height - (_yAddedHeight * i);
+            allHeightForTlo = _height + _yDefaultSpawn  + (_yAddedHeight * i);
             i++;
+
+            Debug.Log("_height " + _height);
+            Debug.Log("allHeightr "+ allHeightForTlo);
+
+
             newCanvas.GetComponent<RectTransform>().position = 
                 new Vector3(_xDefaultSpawn, ySpawn, 0);
 
@@ -85,9 +100,84 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
                 }
             }
 
+            allHeightForTlo = _height + _yDefaultSpawn + (_yAddedHeight * i);
+            newCanvas.GetComponentInChildren<ObjectInListReference>().KorzyscLubZdolnosc = item;
+        }
+
+        _tlo.sizeDelta = new Vector2(1800, _baseHeightTlo + allHeightForTlo);
+
+        _canvasSkala.sizeDelta = new Vector2(_canvasSkala.sizeDelta.x,
+            _baseHeightCanvasSkala + allHeightForTlo);
+
+
+
+         _canvasLista.localPosition = Vector3.zero;
+         _canvasSkala.localPosition = new Vector3(_canvasSkala.localPosition.x, -allHeightForTlo/2 + 1000, 0);
+
+
+        GameObject[] gameObjects2 = GameObject.FindGameObjectsWithTag(Tagi.KorzyscLubZdolnoscTag);
+        foreach (var item in gameObjects2)
+        {
+            Destroy(item);
+        }
+
+
+
+        _height = 0;
+         allHeightForTlo = 0;
+
+         i = 0;
+
+        foreach (var item in _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci)
+        {
+
+
+            Canvas newCanvas = Instantiate(_prefab);
+
+            newCanvas.transform.SetParent(_canvasLista);
+
+
+            float ySpawn = _yDefaultSpawn - _height - (_yAddedHeight * i);
+            allHeightForTlo = _height + _yDefaultSpawn + (_yAddedHeight * i);
+            i++;
+
+            Debug.Log("_height " + _height);
+            Debug.Log("allHeightr " + allHeightForTlo);
+
+
+            newCanvas.GetComponent<RectTransform>().position =
+                new Vector3(_xDefaultSpawn, ySpawn, 0);
+
+            _listOfTextMeshProUGUIs = newCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+
+            for (int j = 0; j < _listOfTextMeshProUGUIs.Length; j++)
+            {
+                if (_listOfTextMeshProUGUIs[j].CompareTag(Tagi.DataNazwaTextTag))
+                {
+                    _listOfTextMeshProUGUIs[j].text = item.Nazwa;
+                }
+
+                if (_listOfTextMeshProUGUIs[j].CompareTag(Tagi.DataPoziomTextTag))
+                {
+                    _listOfTextMeshProUGUIs[j].text = item.level.ToString();
+                }
+
+                if (_listOfTextMeshProUGUIs[j].CompareTag(Tagi.DataOpisTextTag))
+                {
+                    _listOfTextMeshProUGUIs[j].text = item.Opis;
+                    _listOfTextMeshProUGUIs[j].GetComponent<ContentSizeFitter>().
+                        SetLayoutVertical();
+
+
+                    _height += _listOfTextMeshProUGUIs[j].preferredHeight;
+                }
+            }
+
+
             newCanvas.GetComponentInChildren<ObjectInListReference>().KorzyscLubZdolnosc = item;
         }
 
 
+        _canvasLista.position = _canvasSkala.position;
     }
 }
