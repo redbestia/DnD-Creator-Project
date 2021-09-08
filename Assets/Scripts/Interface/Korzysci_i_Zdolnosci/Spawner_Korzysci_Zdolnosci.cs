@@ -32,15 +32,23 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
             GetComponent<Poziom>();
 
         _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci.Sort();
-
-
-
+        for (int j = 0; j < _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci.Count; j++)
+        {
+            if (_listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci[j].Nazwa == "")
+            {
+                _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci.
+                    Remove(_listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci[j]);
+                break;
+            }
+        }
 
         float _height = 0;
         int i = 0;
 
         foreach (var item in _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci)
         {
+            
+
             Canvas newCanvas = Instantiate(_prefab);
             
 
@@ -76,6 +84,8 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
                     _height += _listOfTextMeshProUGUIs[j].preferredHeight;
                 }
             }
+
+            newCanvas.GetComponentInChildren<ObjectInListReference>().KorzyscLubZdolnosc = item;
         }
 
 

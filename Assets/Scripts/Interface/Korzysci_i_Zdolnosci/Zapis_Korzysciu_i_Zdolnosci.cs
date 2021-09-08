@@ -20,8 +20,13 @@ public class Zapis_Korzysciu_i_Zdolnosci : MonoBehaviour
             as KorzyscLubZdolnosc;
 
         korzyscLubZdolnosc.Nazwa = _nazwaInputFiled.text;
-        korzyscLubZdolnosc.level = Convert.ToInt32(_poziomInputFiled.text);
         korzyscLubZdolnosc.Opis = _opisInputFiled.text;
+
+        if (_poziomInputFiled.text == "")
+            korzyscLubZdolnosc.level = 0;
+        else
+            korzyscLubZdolnosc.level = Convert.ToInt32(_poziomInputFiled.text);
+
 
         _data.ListaKorzysciAndZdolnosci.Add(korzyscLubZdolnosc);
     }

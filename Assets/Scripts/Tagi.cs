@@ -12,6 +12,7 @@ namespace UnityEngine
         public const string DataPoziomTextTag = "DataPoziomText";
         public const string DataOpisTextTag = "DataOpisText";
         public const string KorzyscLubZdolnoscTag = "KorzyscLubZdolnosc";
+        public const string SpawnerKorzyscLubZdolnoscTag = "SpawnerKorzyscLubZdolnosc";
 
     }
 }
