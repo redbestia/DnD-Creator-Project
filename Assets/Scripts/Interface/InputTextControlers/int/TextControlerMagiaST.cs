@@ -15,7 +15,7 @@ public class TextControlerMagiaST : MonoBehaviour
         {
             GetComponent<TextMeshProUGUI>().text =
                 (8 + GameObject.FindGameObjectWithTag(Tagi.DataTag).GetComponent<GlowneStatystyki>().Modfikator
-   (GameObject.FindGameObjectWithTag(Tagi.DataTag).GetComponent<GlowneStatystyki>().zrecznosc) + GameObject.
+   (GameObject.FindGameObjectWithTag(Tagi.DataTag).GetComponent<GlowneStatystyki>().charyzma) + GameObject.
    FindGameObjectWithTag(Tagi.DataTag).GetComponent<GlowneStatystyki>().bieglosc)
 .ToString();
         }
