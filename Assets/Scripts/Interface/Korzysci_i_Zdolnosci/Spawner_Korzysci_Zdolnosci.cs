@@ -14,31 +14,28 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
     [SerializeField] float _xDefaultSpawn = 620;
     [SerializeField] float _yDefaultSpawn = 720;
     [SerializeField] float _yAddedHeight = 200;
-    [SerializeField] float _baseHeightTlo = 2300;
+    [SerializeField] float _baseHeightTlo = 4700;
     [SerializeField] float _baseHeightCanvasSkala = 2000;
-
-    float _startPositionY_CanvasSkala;
 
     Poziom _listOfKorzysciZdolnosci;
     TextMeshProUGUI[] _listOfTextMeshProUGUIs;
 
-    private void Start()
-    {
-        _startPositionY_CanvasSkala = _canvasSkala.localPosition.y;
-    }
-
     public void SpwanListOfKorzysci_i_Zdolnosci()
     {
+        ///Usuniêcie wszystkich KorzysciLubZdolnosci z Canvasa
         GameObject[] gameObjects = GameObject.FindGameObjectsWithTag(Tagi.KorzyscLubZdolnoscTag);
         foreach (var item in gameObjects)
         {
             Destroy(item);
         }
 
+
         _listOfKorzysciZdolnosci = GameObject.FindGameObjectWithTag(Tagi.DataTag).
             GetComponent<Poziom>();
 
         _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci.Sort();
+
+        ///Sprawdzenie czy w liscie nie ma pustych nazw i usuwanie ich
         for (int j = 0; j < _listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci.Count; j++)
         {
             if (_listOfKorzysciZdolnosci.ListaKorzysciAndZdolnosci[j].Nazwa == "")
@@ -49,7 +46,7 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
             }
         }
 
-
+        /// Stworzenie listy aby poznaæ d³ugoœæ ca³oœci
         float _height = 0;
         float allHeightForTlo = 0;
 
@@ -104,17 +101,15 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
             newCanvas.GetComponentInChildren<ObjectInListReference>().KorzyscLubZdolnosc = item;
         }
 
+        ///Dopasoanie wielkoœci i pozycji t³a i canvasa przesuwaj¹cego
         _tlo.sizeDelta = new Vector2(1800, _baseHeightTlo + allHeightForTlo);
 
         _canvasSkala.sizeDelta = new Vector2(_canvasSkala.sizeDelta.x,
             _baseHeightCanvasSkala + allHeightForTlo);
 
-
-
-         _canvasLista.localPosition = Vector3.zero;
          _canvasSkala.localPosition = new Vector3(_canvasSkala.localPosition.x, -allHeightForTlo/2 + 1000, 0);
 
-
+        ///Usuniêcie testowej listy
         GameObject[] gameObjects2 = GameObject.FindGameObjectsWithTag(Tagi.KorzyscLubZdolnoscTag);
         foreach (var item in gameObjects2)
         {
@@ -122,7 +117,7 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
         }
 
 
-
+        ///Stworzenie docelowej listy KorzysciLubZdolnosci w odpowiednim miejscu
         _height = 0;
          allHeightForTlo = 0;
 
@@ -178,6 +173,5 @@ public class Spawner_Korzysci_Zdolnosci : MonoBehaviour
         }
 
 
-        _canvasLista.position = _canvasSkala.position;
     }
 }

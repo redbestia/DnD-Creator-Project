@@ -55345,7 +55345,7 @@ MonoBehaviour:
   _xDefaultSpawn: 620
   _yDefaultSpawn: 720
   _yAddedHeight: 200
-  _baseHeightTlo: 2300
+  _baseHeightTlo: 4700
   _baseHeightCanvasSkala: 0
 --- !u!114 &1766142334
 MonoBehaviour:
