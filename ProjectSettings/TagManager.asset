@@ -12,6 +12,8 @@ TagManager:
   - 'DataPoziomText '
   - KorzyscLubZdolnosc
   - SpawnerKorzyscLubZdolnosc
+  - Notatka
+  - DataNotatka
   layers:
   - Default
   - TransparentFX

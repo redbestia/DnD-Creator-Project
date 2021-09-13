@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Notatki : MonoBehaviour
+public class Notatka : ScriptableObject
 {
-    public List<Notatka> ListaNotatek;
+   public string NotatkaText = "";
 }
