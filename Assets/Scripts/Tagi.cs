@@ -15,5 +15,7 @@ namespace UnityEngine
         public const string SpawnerKorzyscLubZdolnoscTag = "SpawnerKorzyscLubZdolnosc";
         public const string NotatkaTag = "Notatka";
         public const string DataNotatkaTag = "DataNotatka";
+        public const string SpawnerNotatkaTag = "SpawnerNotatka";
+
     }
 }
