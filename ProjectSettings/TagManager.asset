@@ -15,6 +15,10 @@ TagManager:
   - Notatka
   - DataNotatka
   - SpawnerNotatka
+  - DataPrzedmiotNazwaText
+  - DataPrzedmiotIloscText
+  - Przedmiot
+  - SpawnerPrzedmiot
   layers:
   - Default
   - TransparentFX

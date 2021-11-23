@@ -16,6 +16,13 @@ namespace UnityEngine
         public const string NotatkaTag = "Notatka";
         public const string DataNotatkaTag = "DataNotatka";
         public const string SpawnerNotatkaTag = "SpawnerNotatka";
+        public const string DataPrzedmiotNazwaTextTag = "DataPrzedmiotNazwaText";
+        public const string DataPrzedmiotIloscTextTag = "DataPrzedmiotIloscText";
+        public const string PrzedmiotTag = "Przedmiot";
+        public const string SpawnerPrzedmiotTag = "SpawnerPrzedmiot";
+
+
+
 
     }
 }
