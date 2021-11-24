@@ -15,17 +15,22 @@ public class SavesController : MonoBehaviour
 
         string json = JsonUtility.ToJson(obiekt.GetComponent<EkwipunekData>());
         File.WriteAllText(path, json + "\n");
-        json = JsonUtility.ToJson(obiekt.GetComponent<PoziomCzaru>());
+        //foreach (var czar in obiekt.GetComponent<PoziomCzaru>().ListaCzarow)
+        //{
+        //    json = JsonUtility.ToJson(czar);
+        //    File.AppendAllText(path, json);
+        //}
+        json = JsonUtility.ToJson(obiekt.GetComponent<PoziomCzaru>());        //tutaj foreach
         File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<UmiejetnoscDoRzucaniaCzarowKlasa>());
         File.AppendAllText(path, json + "\n");
-        json = JsonUtility.ToJson(obiekt.GetComponent<Notatki>());
+        json = JsonUtility.ToJson(obiekt.GetComponent<Notatki>());        //tutaj foreach
         File.AppendAllText(path, json + "\n");
-        json = JsonUtility.ToJson(obiekt.GetComponent<Poziom>());
+        json = JsonUtility.ToJson(obiekt.GetComponent<Poziom>());        //tutaj foreach
         File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<KlasaPancerzaISzybkosc>());
         File.AppendAllText(path, json + "\n");
-        json = JsonUtility.ToJson(obiekt.GetComponent<ListaBroni>());
+        json = JsonUtility.ToJson(obiekt.GetComponent<ListaBroni>());        //tutaj foreach
         File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<RzutyPrzeciwSmierci>());
         File.AppendAllText(path, json + "\n");
