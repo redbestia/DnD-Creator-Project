@@ -1,8 +1,8 @@
-{"sztukiMiedzi":787,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":0}
-{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,1,3,0,0,0,0,0,0],"ListaCzarow":[]}
+{"sztukiMiedzi":787,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":0,"ListaPrzedmiotow":[]}
+{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,1,3,0,0,0,0,0,0],"ListaCzarow":[{"instanceID":0}]}
 {"UmiejetnoscDoRzucaniaCzarow":1}
-{"ListaNotatek":[{"instanceID":0},{"instanceID":0}]}
-{"ListaKorzysciAndZdolnosci":[{"instanceID":0},{"instanceID":0},{"instanceID":0},{"instanceID":0}]}
+{"ListaNotatek":[{"instanceID":0},{"instanceID":0},{"instanceID":0}]}
+{"ListaKorzysciAndZdolnosci":[]}
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
 {}
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
