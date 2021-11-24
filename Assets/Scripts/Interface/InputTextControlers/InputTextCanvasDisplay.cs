@@ -16,4 +16,9 @@ public class InputTextCanvasDisplay : MonoBehaviour
     {
         Debug.Log("jo³");
     }
+
+    public void SetCanvasMiddle()
+    {
+        transform.position = new Vector2(600, 1400);
+    }
 }

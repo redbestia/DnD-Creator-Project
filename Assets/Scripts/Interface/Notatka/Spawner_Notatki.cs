@@ -22,7 +22,7 @@ public class Spawner_Notatki : MonoBehaviour
 
     public void SpwanListOfNotatki()
     {
-        ///Usuniêcie wszystkich KorzysciLubZdolnosci z Canvasa
+        ///Usuniêcie wszystkich Notatek z Canvasa
         GameObject[] gameObjects = GameObject.FindGameObjectsWithTag(Tagi.NotatkaTag);
         foreach (var item in gameObjects)
         {

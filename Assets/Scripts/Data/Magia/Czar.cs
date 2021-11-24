@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Czar : MonoBehaviour
+public class Czar : ScriptableObject
 {
-    public string nazwa = "";
-    public int poziom = 0;
-    public string czasRzucania = "";
-    public string Zasieg = "";
+    public string Nazwa = "";
+    public int Poziom = 0;
+    public float CzasRzucania = 0.0f;
+    public float Zasieg = 0.0f;
     public string Komponenty = "";
-    public string CzasTrwania = "";
-    public string opis = "";
+    public float CzasTrwania = 0.0f;
+    public string Opis = "";
 }
