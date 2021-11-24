@@ -19,6 +19,15 @@ TagManager:
   - DataPrzedmiotIloscText
   - Przedmiot
   - SpawnerPrzedmiot
+  - SpawnerCzar
+  - Czar
+  - DataCzarNazwa
+  - DataCzarPoziom
+  - DataCzarCzasRzucania
+  - DataCzarZasieg
+  - DataCzarKomponenty
+  - DataCzarCzasTrawnia
+  - DataCzarOpis
   layers:
   - Default
   - TransparentFX

@@ -733,7 +733,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5722339669746639354}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -2285,6 +2285,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8892174032539043260}
         m_TargetAssemblyTypeName: InputTextControlerNotatka, Assembly-CSharp
         m_MethodName: PobierzText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5722339669746639352}
+        m_TargetAssemblyTypeName: InputTextCanvasDisplay, Assembly-CSharp
+        m_MethodName: SetCanvasMiddle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
