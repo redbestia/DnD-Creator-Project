@@ -16,4 +16,16 @@ public class OpisData : MonoBehaviour
     public string Historia = "";
     public string Wyglad = "";
 
+    public void UpdateData(OpisData ob)
+    {
+Pochodzenie = ob.Pochodzenie;
+Charakter = ob.Charakter;
+CechyOsobowosci = ob.CechyOsobowosci;
+Idealy = ob.Idealy;
+Wiezi = ob.Wiezi;
+Slabosci = ob.Slabosci;
+Historia = ob.Historia;
+Wyglad = ob.Wyglad;
+}
+
 }

@@ -18,4 +18,17 @@ public class GlowneStatystyki : MonoBehaviour
         return wynik / 2 - 5;
     }
 
+
+    public void UpdateData(GlowneStatystyki ob)
+    {
+        sila = ob.sila;
+        zrecznosc = ob.zrecznosc;
+        kondycja = ob.kondycja;
+        madrosc = ob.inteligencja;
+        charyzma = ob.charyzma;
+        bieglosc = ob.bieglosc;
+        kosciWytrzymalosci = ob.kosciWytrzymalosci;
+        aktualnaIloscKosciWytrzymalosci= ob.aktualnaIloscKosciWytrzymalosci;
+    }
+
 }

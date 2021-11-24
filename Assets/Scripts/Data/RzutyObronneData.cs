@@ -10,4 +10,14 @@ public class RzutyObronneData : MonoBehaviour
     public bool inteligencja = false;
     public bool madrosc = false;
     public bool charyzma = false;
+
+    public void UpdateData(RzutyObronneData ob)
+    {
+        sila = ob.sila;
+        zrecznosc = ob.zrecznosc;
+        kondycja = ob.kondycja;
+        inteligencja = ob.inteligencja;
+        madrosc = ob.madrosc;
+        charyzma = ob.charyzma;
+    }
 }
