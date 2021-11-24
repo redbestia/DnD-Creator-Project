@@ -16,4 +16,14 @@ public class GornyPanelData : MonoBehaviour
     public void NazwaPostaciReturn()
     {
     }
+    public void UpdateData(GornyPanelData ob)
+    {
+        nazwaPostaci = ob.nazwaPostaci;
+        Klasa = ob.Klasa;
+        Poziom = ob.Poziom;
+        Rasa = ob.Rasa;
+        HPMax = ob.HPMax;
+        HPAktualne = ob.HPAktualne;
+        notka = ob.notka;
+    }
 }

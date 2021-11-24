@@ -9,4 +9,12 @@ public class Bieglosci : MonoBehaviour
     public string Jezyki = "";
     public string Inne = "";
 
+    public void UpdateData(Bieglosci ob)
+    {
+        Uzbrojenie = ob.Uzbrojenie;
+        Narzedzia = ob.Narzedzia;
+        Jezyki = ob.Jezyki;
+        Inne = ob.Inne;
+    }
+
 }

@@ -7,4 +7,11 @@ public class PoziomCzaru : MonoBehaviour
     public List<int> KomorkiMax;
     public List<int> KomorkiAktualne;
     public List<Czar> ListaCzarow;
+
+    public void UpdateData(PoziomCzaru ob)
+    {
+        KomorkiMax = ob.KomorkiMax;
+        KomorkiAktualne = ob.KomorkiAktualne;
+        ListaCzarow = ob.ListaCzarow;
+    }
 }

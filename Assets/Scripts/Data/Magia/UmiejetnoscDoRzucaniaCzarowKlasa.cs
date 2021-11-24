@@ -7,4 +7,9 @@ public enum UmiejetnoscDoRzucaniaCzarowWybor { Inteligencja, Madrosc, Charyzma}
 public class UmiejetnoscDoRzucaniaCzarowKlasa : MonoBehaviour
 {
     public UmiejetnoscDoRzucaniaCzarowWybor UmiejetnoscDoRzucaniaCzarow;
+
+    public void UpdateData(UmiejetnoscDoRzucaniaCzarowKlasa ob)
+    {
+        UmiejetnoscDoRzucaniaCzarow = ob.UmiejetnoscDoRzucaniaCzarow;
+    }
 }

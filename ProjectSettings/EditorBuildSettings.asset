@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScenaGlowna.unity
     guid: 295e79684d0eb6e4ea79948df2157082
+  - enabled: 1
+    path: Assets/Scenes/GlowneMenu.unity
+    guid: c679c280f3e826d40b28e0d6abd2b41a
   m_configObjects: {}
