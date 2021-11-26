@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum RodzajBroniEnum {Dystansowa, Finezyjna, Bia³a}
-public class Bron
+public enum RodzajBroni {Dystansowa, Finezyjna, Bia³a}
+public enum RodzajObrazen {Kute, Obuchowe, Ciete} 
+public class Bron : ScriptableObject
 {
     public string Nazwa = "";
-    public RodzajBroniEnum RodzajBroni = RodzajBroniEnum.Bia³a;
+    public RodzajBroni RodzajBroni = RodzajBroni.Bia³a;
     public bool CzyBieglosc = false;
-    public string Obrazenia = ""; 
+    public RodzajObrazen RodzajObrazen = RodzajObrazen.Ciete;
+    public string Obrazenia = "";
+    public string Opis = "";
 }
