@@ -5,7 +5,7 @@ using UnityEngine;
 public class Load : MonoBehaviour
 {
     [SerializeField] GameObject _data;
-    void Start()
+    void Awake()
     {
         SavesController.OdczytObiektow(_data);
     }
