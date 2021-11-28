@@ -38,5 +38,16 @@ namespace UnityEngine
         public const string CzarCzasTrawniaTag = "DataCzarCzasTrawnia";
         public const string CzarOpisTag = "DataCzarOpis";
 
+        ///Bronie
+        public const string SpawnerBronTag = "SpawnerBron";
+        public const string BronTag = "Bron";
+        public const string NazwaBronTag = "NazwaBron";
+        public const string CelnoscBronTag = "CelnoscBron";
+        public const string RodzajObrazenBronTag = "RodzajObrazenBron";
+        public const string ObrazeniaBronTag = "ObrazeniaBron";
+        public const string PlusObrazeniaBronTag = "PlusObrazeniaBron";
+        public const string OpisBronTag = "OpisBron";
+
+
     }
 }

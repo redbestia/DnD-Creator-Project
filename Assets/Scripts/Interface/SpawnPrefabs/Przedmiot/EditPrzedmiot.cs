@@ -7,6 +7,7 @@ public class EditPrzedmiot : MonoBehaviour
 {
     [SerializeField] TMP_InputField _nazwaInputField;
     [SerializeField] TMP_InputField _iloscInputField;
+
     [SerializeField] ObjectInListReferencePrzedmiot _objectInListReference;
 
     public void Edit()

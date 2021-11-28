@@ -28,6 +28,14 @@ TagManager:
   - DataCzarKomponenty
   - DataCzarCzasTrawnia
   - DataCzarOpis
+  - SpawnerBron
+  - Bron
+  - NazwaBron
+  - RodzajObrazenBron
+  - ObrazeniaBron
+  - OpisBron
+  - PlusObrazeniaBron
+  - CelnoscBron
   layers:
   - Default
   - TransparentFX

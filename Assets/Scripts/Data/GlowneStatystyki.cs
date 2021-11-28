@@ -17,6 +17,10 @@ public class GlowneStatystyki : MonoBehaviour
     {
         return wynik / 2 - 5;
     }
+    public static int ModfikatorStatic(int wynik)
+    {
+        return wynik / 2 - 5;
+    }
 
 
     public void UpdateData(GlowneStatystyki ob)
