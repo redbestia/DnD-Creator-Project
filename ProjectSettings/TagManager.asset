@@ -36,6 +36,11 @@ TagManager:
   - OpisBron
   - PlusObrazeniaBron
   - CelnoscBron
+  - SpawnerPostac
+  - Postac
+  - NazwaPostac
+  - RasaPostac
+  - PoziomPostac
   layers:
   - Default
   - TransparentFX

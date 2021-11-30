@@ -48,6 +48,14 @@ namespace UnityEngine
         public const string PlusObrazeniaBronTag = "PlusObrazeniaBron";
         public const string OpisBronTag = "OpisBron";
 
+        ///Postac Do Wyboru
+        public const string SpawnerPostacTag = "SpawnerPostac";
+        public const string PostacTag = "Postac";
+        public const string NazwaPostacTag = "NazwaPostac";
+        public const string RasaPostacTag = "RasaPostac";
+        public const string PoziomPostacTag = "PoziomPostac";
+
+
 
     }
 }

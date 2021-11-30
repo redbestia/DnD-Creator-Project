@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MenuSavesController : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class MenuSavesController : MonoBehaviour
     public static int idNowejPostaci;
 
     public List<GameObject> lista = new List<GameObject>();
+
+    public UnityEvent OnStartLoad;
     void Start()
     {
         idNowejPostaci = 0;
@@ -23,16 +26,16 @@ public class MenuSavesController : MonoBehaviour
 
                 GameObject obiekt = Instantiate(_prefab);
                 obiekt.transform.SetParent(_menuDataContainer);
-                
-                string json = File.ReadAllLines(file)[10];
-                JsonUtility.FromJsonOverwrite(json, obiekt.GetComponent<GornyPanelData>());
-                json = File.ReadAllLines(file)[14];
+
+                string json = File.ReadAllLines(file)[0];
                 JsonUtility.FromJsonOverwrite(json, obiekt.GetComponent<IDPostaci>());
+                json = File.ReadAllLines(file)[1];
+                JsonUtility.FromJsonOverwrite(json, obiekt.GetComponent<GornyPanelData>());
                 lista.Add(obiekt);
             }
 
         }
-
+        OnStartLoad.Invoke();
     }
 }
 
