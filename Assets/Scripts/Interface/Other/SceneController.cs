@@ -9,12 +9,12 @@ public class SceneController : MonoBehaviour
 
     public void wlaczPostac()
     {
-        SceneManager.LoadScene(0);  
+        SceneManager.LoadScene(1);  
     }
 
     public void wlaczMenu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void wylaczAplikacje()

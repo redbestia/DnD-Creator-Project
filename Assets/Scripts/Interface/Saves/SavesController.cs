@@ -11,8 +11,11 @@ public class SavesController : MonoBehaviour
     {
 
         string idPostaci = obiekt.GetComponent<IDPostaci>().ID.ToString();
-        string path = Application.dataPath + "/" + idPostaci + ".json";
+        //string path = Application.dataPath + "/" + idPostaci + ".json";
 
+        string path = (Application.platform == RuntimePlatform.Android ||
+            Application.platform == RuntimePlatform.IPhonePlayer ?
+            Application.persistentDataPath : Application.dataPath) + "/" + idPostaci + ".json";
 
         string json = JsonUtility.ToJson(obiekt.GetComponent<IDPostaci>());
         File.WriteAllText(path, json + "\n");
@@ -69,15 +72,15 @@ public class SavesController : MonoBehaviour
         json = JsonUtility.ToJson(obiekt.GetComponent<ListaBroni>());  
         File.AppendAllText(path, json + "\n");
         //Pocz¹tek
-        //json = "";
-        //foreach (var item in obiekt.GetComponent<ListaBroni>().PosiadaneBronie)
-        //{
-        //    json = JsonUtility.ToJson(item);
-        //    File.AppendAllText(path, json + "\n");
-        //}
-        //File.AppendAllText(path, "przerwa5\n");
+        json = "";
+        foreach (var item in obiekt.GetComponent<ListaBroni>().PosiadaneBronie)
+        {
+            json = JsonUtility.ToJson(item);
+            File.AppendAllText(path, json + "\n");
+        }
+        File.AppendAllText(path, "przerwa5\n");
         //Koniec
-        //File.AppendAllText(path, json + "\n");
+        File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<RzutyPrzeciwSmierci>());
         File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<Bieglosci>());
@@ -97,7 +100,11 @@ public class SavesController : MonoBehaviour
     public static void OdczytObiektow(GameObject obiekt)
     {
         string idPostaci = IDController.IDDoWysylki.ToString();
-        string path = Application.dataPath + "/" + idPostaci + ".json";
+        //string path = Application.dataPath + "/" + idPostaci + ".json";
+
+        string path = (Application.platform == RuntimePlatform.Android ||
+            Application.platform == RuntimePlatform.IPhonePlayer ?
+            Application.persistentDataPath : Application.dataPath) + "/" + idPostaci + ".json";
 
         if (File.ReadAllLines(path).Length != 1)
         {
@@ -189,17 +196,17 @@ public class SavesController : MonoBehaviour
 
             i++;
             //Pocz¹tek grzebania w liœcie
-            //obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Clear();
-            //json = File.ReadAllLines(path)[i];
-            //while (json != "przerwa5")
-            //{
-            //    Bron item = ScriptableObject.CreateInstance("Bron") as Bron;
-            //    JsonUtility.FromJsonOverwrite(json, item);
-            //    obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Add(item);
-            //    i++;
-            //    json = File.ReadAllLines(path)[i];
-            //}
-            //i++;
+            obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Clear();
+            json = File.ReadAllLines(path)[i];
+            while (json != "przerwa5")
+            {
+                Bron item = ScriptableObject.CreateInstance("Bron") as Bron;
+                JsonUtility.FromJsonOverwrite(json, item);
+                obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Add(item);
+                i++;
+                json = File.ReadAllLines(path)[i];
+            }
+            i++;
             //Koniec
             json = File.ReadAllLines(path)[i];
             JsonUtility.FromJsonOverwrite(json, obiekt.GetComponent<RzutyPrzeciwSmierci>());

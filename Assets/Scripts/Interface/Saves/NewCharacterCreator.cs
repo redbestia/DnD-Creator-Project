@@ -14,9 +14,24 @@ public class NewCharacterCreator : MonoBehaviour
         _prefab.GetComponent<IDPostaci>().ID = IDController.IDDoWysylki;
 
         string idPostaci = _prefab.GetComponent<IDPostaci>().ID.ToString();
-        string path = Application.dataPath + "/" + idPostaci + ".json";
+        //string path = Application.dataPath + "/" + idPostaci + ".json";
+
+        string path = (Application.platform == RuntimePlatform.Android || 
+            Application.platform == RuntimePlatform.IPhonePlayer ? 
+            Application.persistentDataPath : Application.dataPath) + "/" + idPostaci + ".json";
+
+
+
 
         string json = JsonUtility.ToJson(_prefab.GetComponent<IDPostaci>());
+
+
+
+
+
+
+
+
         File.WriteAllText(path, json);
     }
 

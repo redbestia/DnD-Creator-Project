@@ -17,7 +17,9 @@ public class MenuSavesController : MonoBehaviour
     {
         idNowejPostaci = 0;
 
-        foreach (string file in Directory.GetFiles(Application.dataPath))
+        foreach (string file in Directory.GetFiles((Application.platform == RuntimePlatform.Android ||
+            Application.platform == RuntimePlatform.IPhonePlayer ?
+            Application.persistentDataPath : Application.dataPath)))
         {
 
             if (file.EndsWith(".json"))
