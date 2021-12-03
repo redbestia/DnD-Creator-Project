@@ -1,5 +1,5 @@
 {"ID":0}
-{"nazwaPostaci":"23232","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
+{"nazwaPostaci":"Adrik","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
 {"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[]}
 przerwa1
 {"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,1,3,0,0,0,0,0,0],"ListaCzarow":[]}
@@ -11,6 +11,8 @@ przerwa3
 przerwa4
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
 {"PosiadaneBronie":[]}
+przerwa5
+
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
 {"Uzbrojenie":"wszystkie zbroje, bornie i tarcze","Narzedzia":"przewóz, przybory kuchenne, narzędzia kowala, zestaw piwowara, narzędzia murarskie","Jezyki":"wspólny, krasnoludzki","Inne":"Kamienie - biegłość gdy historia kamienia (gdy mam biegłość w historii to podwaja biegłość)"}
 {"sila":18,"zrecznosc":13,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":2}

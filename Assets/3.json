@@ -11,6 +11,8 @@ przerwa3
 przerwa4
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
 {"PosiadaneBronie":[]}
+przerwa5
+
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
 {"Uzbrojenie":"wszystkie zbroje, bornie i tarcze","Narzedzia":"przewóz, przybory kuchenne, narzędzia kowala, zestaw piwowara, narzędzia murarskie","Jezyki":"wspólny, krasnoludzki","Inne":"Kamienie - biegłość gdy historia kamienia (gdy mam biegłość w historii to podwaja biegłość)"}
 {"sila":18,"zrecznosc":13,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":2}
