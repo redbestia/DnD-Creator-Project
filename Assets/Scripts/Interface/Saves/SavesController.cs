@@ -69,15 +69,15 @@ public class SavesController : MonoBehaviour
         json = JsonUtility.ToJson(obiekt.GetComponent<ListaBroni>());  
         File.AppendAllText(path, json + "\n");
         //Pocz¹tek
-        //json = "";
-        //foreach (var item in obiekt.GetComponent<ListaBroni>().PosiadaneBronie)
-        //{
-        //    json = JsonUtility.ToJson(item);
-        //    File.AppendAllText(path, json + "\n");
-        //}
-        //File.AppendAllText(path, "przerwa5\n");
+        json = "";
+        foreach (var item in obiekt.GetComponent<ListaBroni>().PosiadaneBronie)
+        {
+            json = JsonUtility.ToJson(item);
+            File.AppendAllText(path, json + "\n");
+        }
+        File.AppendAllText(path, "przerwa5\n");
         //Koniec
-        //File.AppendAllText(path, json + "\n");
+        File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<RzutyPrzeciwSmierci>());
         File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<Bieglosci>());
@@ -189,17 +189,17 @@ public class SavesController : MonoBehaviour
 
             i++;
             //Pocz¹tek grzebania w liœcie
-            //obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Clear();
-            //json = File.ReadAllLines(path)[i];
-            //while (json != "przerwa5")
-            //{
-            //    Bron item = ScriptableObject.CreateInstance("Bron") as Bron;
-            //    JsonUtility.FromJsonOverwrite(json, item);
-            //    obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Add(item);
-            //    i++;
-            //    json = File.ReadAllLines(path)[i];
-            //}
-            //i++;
+            obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Clear();
+            json = File.ReadAllLines(path)[i];
+            while (json != "przerwa5")
+            {
+                Bron item = ScriptableObject.CreateInstance("Bron") as Bron;
+                JsonUtility.FromJsonOverwrite(json, item);
+                obiekt.GetComponent<ListaBroni>().PosiadaneBronie.Add(item);
+                i++;
+                json = File.ReadAllLines(path)[i];
+            }
+            i++;
             //Koniec
             json = File.ReadAllLines(path)[i];
             JsonUtility.FromJsonOverwrite(json, obiekt.GetComponent<RzutyPrzeciwSmierci>());
