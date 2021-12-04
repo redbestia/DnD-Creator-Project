@@ -1,6 +1,7 @@
 {"ID":0}
-{"nazwaPostaci":"Adrik","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
-{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[]}
+{"nazwaPostaci":"eessassas","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
+{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-33614}]}
+{"Nazwa":"essa","Ilosc":1.0}
 przerwa1
 {"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,1,3,0,0,0,0,0,0],"ListaCzarow":[]}
 przerwa2
