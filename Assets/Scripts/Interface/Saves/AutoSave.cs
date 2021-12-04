@@ -16,4 +16,14 @@ public class AutoSave : MonoBehaviour
         SavesController.ZapisObiektu(data);
         StartCoroutine(ExampleCoroutine(data));
     }
+
+    private void OnApplicationPause(bool pause)
+    {
+        SavesController.ZapisObiektu(_data);
+    }
+
+    private void OnApplicationQuit()
+    {
+        SavesController.ZapisObiektu(_data);
+    }
 }

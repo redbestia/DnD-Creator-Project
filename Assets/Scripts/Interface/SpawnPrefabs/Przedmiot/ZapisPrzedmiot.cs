@@ -18,7 +18,15 @@ public class ZapisPrzedmiot : MonoBehaviour
         Przedmiot przedmiot = ScriptableObject.CreateInstance("Przedmiot") as Przedmiot;
 
         przedmiot.Nazwa = _przedmiotNazwaInputFiled.text;
-        przedmiot.Ilosc =  float.Parse(_iloœæNazwaInputFiled.text);
+        przedmiot.Ilosc =  getStringFormFloat(_iloœæNazwaInputFiled.text);
         _data.ListaPrzedmiotow.Add(przedmiot);
+    }
+
+    float getStringFormFloat(string input)
+    {
+        if (input == "")
+            return 0.0f;
+        else
+            return float.Parse(input);
     }
 }

@@ -18,6 +18,7 @@ public class ZmianaPołożenia : MonoBehaviour
             position.x, polozenie, _canvas.GetComponent<RectTransform>().
             position.z);
 
-        _canvas.GetComponent<ScrollRect>().velocity = new Vector3(0, 0, 0);
+        if(_canvas.GetComponent<ScrollRect>() != null)
+            _canvas.GetComponent<ScrollRect>().velocity = new Vector3(0, 0, 0);
     }
 }

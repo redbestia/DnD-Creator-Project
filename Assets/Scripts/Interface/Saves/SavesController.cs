@@ -11,8 +11,11 @@ public class SavesController : MonoBehaviour
     {
 
         string idPostaci = obiekt.GetComponent<IDPostaci>().ID.ToString();
-        string path = Application.dataPath + "/" + idPostaci + ".json";
+        //string path = Application.dataPath + "/" + idPostaci + ".json";
 
+        string path = (Application.platform == RuntimePlatform.Android ||
+            Application.platform == RuntimePlatform.IPhonePlayer ?
+            Application.persistentDataPath : Application.dataPath) + "/" + idPostaci + ".json";
 
         string json = JsonUtility.ToJson(obiekt.GetComponent<IDPostaci>());
         File.WriteAllText(path, json + "\n");
@@ -97,7 +100,11 @@ public class SavesController : MonoBehaviour
     public static void OdczytObiektow(GameObject obiekt)
     {
         string idPostaci = IDController.IDDoWysylki.ToString();
-        string path = Application.dataPath + "/" + idPostaci + ".json";
+        //string path = Application.dataPath + "/" + idPostaci + ".json";
+
+        string path = (Application.platform == RuntimePlatform.Android ||
+            Application.platform == RuntimePlatform.IPhonePlayer ?
+            Application.persistentDataPath : Application.dataPath) + "/" + idPostaci + ".json";
 
         if (File.ReadAllLines(path).Length != 1)
         {
