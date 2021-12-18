@@ -1,16 +1,22 @@
-{"ID":4}
+{"ID":0}
 {"nazwaPostaci":"Adrik","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
-{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[]}
+{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-1001858}]}
+{"Nazwa":"esaeaseaseeas","Ilosc":12.0}
 przerwa1
-{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,1,3,0,0,0,0,0,0],"ListaCzarow":[]}
+{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,0,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-1001860}]}
+{"Nazwa":"ee22","Poziom":22,"CzasRzucania":2.0,"Zasieg":22.0,"Komponenty":"qweqe","CzasTrwania":2.0,"Opis":"qwqewqew"}
 przerwa2
 {"UmiejetnoscDoRzucaniaCzarow":1}
-{"ListaNotatek":[]}
+{"ListaNotatek":[{"instanceID":-1010900}]}
+{"NotatkaText":"esaeaseaseaseasdasdasdas"}
 przerwa3
-{"ListaKorzysciAndZdolnosci":[]}
+{"ListaKorzysciAndZdolnosci":[{"instanceID":-1001862}]}
+{"Nazwa":"palenie fajki","Opis":"palisz se  szluga i sie leczysz","level":1}
 przerwa4
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
-{"PosiadaneBronie":[]}
+{"PosiadaneBronie":[{"instanceID":-1001864},{"instanceID":-1001866}]}
+{"Nazwa":"23","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"","Opis":"ewwqeqweqw"}
+{"Nazwa":"essa","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":1,"Obrazenia":"eewsasas","Opis":"easease"}
 przerwa5
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
 {"Uzbrojenie":"wszystkie zbroje, bornie i tarcze","Narzedzia":"przewóz, przybory kuchenne, narzędzia kowala, zestaw piwowara, narzędzia murarskie","Jezyki":"wspólny, krasnoludzki","Inne":"Kamienie - biegłość gdy historia kamienia (gdy mam biegłość w historii to podwaja biegłość)"}

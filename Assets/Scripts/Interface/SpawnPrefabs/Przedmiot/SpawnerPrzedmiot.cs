@@ -23,7 +23,7 @@ public class SpawnerPrzedmiot : MonoBehaviour
 
         public void Spawn()
         {
-        Debug.Log("spa[w");
+        //Debug.Log("spa[w");
             ///Usuniêcie wszystkich Notatek z Canvasa
             GameObject[] gameObjects = GameObject.FindGameObjectsWithTag(Tagi.PrzedmiotTag);
             foreach (var item in gameObjects)

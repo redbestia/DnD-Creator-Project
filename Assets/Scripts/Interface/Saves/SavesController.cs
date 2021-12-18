@@ -80,7 +80,7 @@ public class SavesController : MonoBehaviour
         }
         File.AppendAllText(path, "przerwa5\n");
         //Koniec
-        File.AppendAllText(path, json + "\n");
+        //File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<RzutyPrzeciwSmierci>());
         File.AppendAllText(path, json + "\n");
         json = JsonUtility.ToJson(obiekt.GetComponent<Bieglosci>());

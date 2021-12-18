@@ -1,0 +1,21 @@
+{"ID":2}
+{"nazwaPostaci":"Maciej","Klasa":"Koks","Poziom":7,"Rasa":"Dziad","HPMax":1000,"HPAktualne":17,"notka":"zgwalcony"}
+{"sztukiMiedzi":0,"sztukiSrebra":0,"sztukiElektrum":0,"sztukiZlota":0,"sztukiPlatyny":0,"ListaPrzedmiotow":[]}
+przerwa1
+{"KomorkiMax":[0,0,0,0,0,0,0,0,0],"KomorkiAktualne":[0,0,0,0,0,0,0,0,0],"ListaCzarow":[]}
+przerwa2
+{"UmiejetnoscDoRzucaniaCzarow":1}
+{"ListaNotatek":[]}
+przerwa3
+{"ListaKorzysciAndZdolnosci":[]}
+przerwa4
+{"KlasaPancerza":"78","Szybkosc":69.0}
+{"PosiadaneBronie":[{"instanceID":-765574}]}
+{"Nazwa":"fajka","RodzajBroni":0,"CzyBieglosc":true,"RodzajObrazen":1,"Obrazenia":"2k6","Opis":"palisz komus morde dymem"}
+przerwa5
+{"Sukcesy":[false,true,true],"Porazki":[false,false,true]}
+{"Uzbrojenie":"zbroje fajne i jakies bronie","Narzedzia":"kije i fajki","Jezyki":"niemiecki i hinduski","Inne":"penisy"}
+{"sila":20,"zrecznosc":15,"kondycja":16,"inteligencja":18,"madrosc":69,"charyzma":78,"bieglosc":4,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":0}
+{"Pochodzenie":"","Charakter":4,"CechyOsobowosci":"","Idealy":"","Wiezi":"","Slabosci":"","Historia":"","Wyglad":""}
+{"sila":false,"zrecznosc":false,"kondycja":false,"inteligencja":false,"madrosc":false,"charyzma":false}
+{"akrobatyka":true,"atletyka":false,"historia":false,"intuicja":true,"medycyna":true,"opiekaNadZwierzetami":false,"oszustwo":true,"percepcja":false,"perswazja":true,"przyroda":false,"religia":false,"skradanieSie":true,"sztukaPrzetrwania":false,"sledztwo":false,"wiedzaTajemna":true,"wystepy":true,"zastraszanie":true,"zwinneDlonie":true}
