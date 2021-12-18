@@ -1,26 +1,27 @@
 {"ID":0}
 {"nazwaPostaci":"Adrik","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
-{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-1001858}]}
+{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-409134}]}
 {"Nazwa":"esaeaseaseeas","Ilosc":12.0}
 przerwa1
-{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,0,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-1001860}]}
-{"Nazwa":"ee22","Poziom":22,"CzasRzucania":2.0,"Zasieg":22.0,"Komponenty":"qweqe","CzasTrwania":2.0,"Opis":"qwqewqew"}
+{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,0,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-409136},{"instanceID":-409138}]}
+{"Nazwa":"ee22","Poziom":22,"CzasRzucania":"2.000000","Zasieg":"22.000000","Komponenty":"qweqe","CzasTrwania":"2.000000","Opis":"qwqewqew"}
+{"Nazwa":"432","Poziom":4324,"CzasRzucania":"32","Zasieg":"234","Komponenty":"2423","CzasTrwania":"323","Opis":"23423432"}
 przerwa2
 {"UmiejetnoscDoRzucaniaCzarow":1}
-{"ListaNotatek":[{"instanceID":-1010900}]}
+{"ListaNotatek":[{"instanceID":-409140}]}
 {"NotatkaText":"esaeaseaseaseasdasdasdas"}
 przerwa3
-{"ListaKorzysciAndZdolnosci":[{"instanceID":-1001862}]}
+{"ListaKorzysciAndZdolnosci":[{"instanceID":-409142}]}
 {"Nazwa":"palenie fajki","Opis":"palisz se  szluga i sie leczysz","level":1}
 przerwa4
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
-{"PosiadaneBronie":[{"instanceID":-1001864},{"instanceID":-1001866}]}
+{"PosiadaneBronie":[{"instanceID":-409144},{"instanceID":-409146}]}
 {"Nazwa":"23","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"","Opis":"ewwqeqweqw"}
 {"Nazwa":"essa","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":1,"Obrazenia":"eewsasas","Opis":"easease"}
 przerwa5
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
 {"Uzbrojenie":"wszystkie zbroje, bornie i tarcze","Narzedzia":"przewóz, przybory kuchenne, narzędzia kowala, zestaw piwowara, narzędzia murarskie","Jezyki":"wspólny, krasnoludzki","Inne":"Kamienie - biegłość gdy historia kamienia (gdy mam biegłość w historii to podwaja biegłość)"}
-{"sila":18,"zrecznosc":13,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":2}
+{"sila":18,"zrecznosc":13,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":3}
 {"Pochodzenie":"Bohater Ludowy","Charakter":4,"CechyOsobowosci":"zrzędliwy, uparty, przywódczy, zmęczony życiem, ukrywa przeszłośc, nie chce zawiązywać relacji, lubi zwierzęta","Idealy":"brak","Wiezi":"brak","Slabosci":"---","Historia":"urodził się gdzieś, potem coś się stało i potem coś jeszcze i potem jeszcze i podjął się zlecenia","Wyglad":"1,47 metra. 117 lat. Skóra dość ciemna i pomarszczona. Czarne długie rozpuszczone włosy. Długa broda i kilka warkoczyków na niej."}
 {"sila":true,"zrecznosc":false,"kondycja":true,"inteligencja":false,"madrosc":false,"charyzma":false}
 {"akrobatyka":false,"atletyka":false,"historia":false,"intuicja":true,"medycyna":false,"opiekaNadZwierzetami":true,"oszustwo":false,"percepcja":false,"perswazja":false,"przyroda":false,"religia":false,"skradanieSie":false,"sztukaPrzetrwania":true,"sledztwo":false,"wiedzaTajemna":false,"wystepy":false,"zastraszanie":true,"zwinneDlonie":false}

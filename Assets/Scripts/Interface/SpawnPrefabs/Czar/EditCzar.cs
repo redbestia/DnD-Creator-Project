@@ -19,10 +19,10 @@ public class EditCzar : MonoBehaviour
     {
         _objectInListReference.CzarObiekt.Nazwa = _nazwaIF.text;
         _objectInListReference.CzarObiekt.Poziom = int.Parse(_poziomIF.text);
-        _objectInListReference.CzarObiekt.CzasRzucania = float.Parse(_czasRzuczaniIF.text);
-        _objectInListReference.CzarObiekt.Zasieg = float.Parse(_zasiegIF.text);
+        _objectInListReference.CzarObiekt.CzasRzucania = (_czasRzuczaniIF.text);
+        _objectInListReference.CzarObiekt.Zasieg = (_zasiegIF.text);
         _objectInListReference.CzarObiekt.Komponenty = _komponentyIF.text;
-        _objectInListReference.CzarObiekt.CzasTrwania = float.Parse(_czasTrawaniaIF.text);
+        _objectInListReference.CzarObiekt.CzasTrwania = (_czasTrawaniaIF.text);
         _objectInListReference.CzarObiekt.Opis = _opisIF.text;
 
         GameObject.FindGameObjectWithTag(Tagi.SpawnerCzarTag).

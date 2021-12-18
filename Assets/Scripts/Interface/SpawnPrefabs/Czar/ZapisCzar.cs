@@ -26,11 +26,18 @@ public class ZapisCzar : MonoBehaviour
         Czar czar = ScriptableObject.CreateInstance("Czar") as Czar;
 
         czar.Nazwa = _nazwaIF.text;
-        czar.Poziom = Convert.ToInt32(_poziomIF.text);
-        czar.CzasRzucania = float.Parse(_czasRzuczaniIF.text);
-        czar.Zasieg = float.Parse(_zasiegIF.text);
+        if (_poziomIF.text == "")
+        {
+            czar.Poziom = 0;
+        }
+        else
+        {
+            czar.Poziom = Convert.ToInt32(_poziomIF.text);
+        }
+        czar.CzasRzucania = (_czasRzuczaniIF.text);
+        czar.Zasieg = (_zasiegIF.text);
         czar.Komponenty = _komponentyIF.text;
-        czar.CzasTrwania = float.Parse(_czasTrawaniaIF.text);
+        czar.CzasTrwania = (_czasTrawaniaIF.text);
         czar.Opis = _opisIF.text;
 
         _data.ListaCzarow.Add(czar);
