@@ -1,26 +1,29 @@
 {"ID":0}
 {"nazwaPostaci":"Adrik","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
-{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-1001858}]}
+{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-692594}]}
 {"Nazwa":"esaeaseaseeas","Ilosc":12.0}
 przerwa1
-{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,0,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-1001860}]}
-{"Nazwa":"ee22","Poziom":22,"CzasRzucania":2.0,"Zasieg":22.0,"Komponenty":"qweqe","CzasTrwania":2.0,"Opis":"qwqewqew"}
+{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,0,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-692596},{"instanceID":-692598},{"instanceID":-692600}]}
+{"Nazwa":"Light","Poziom":0,"CzasRzucania":121.0,"Zasieg":2.0,"Komponenty":"V, M","CzasTrwania":1.0,"Opis":"srasz se do ryja i jest fajnie"}
+{"Nazwa":"Essa","Poziom":23,"CzasRzucania":2332.0,"Zasieg":3223.0,"Komponenty":"3232","CzasTrwania":3223.0,"Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl1234567891011"}
+{"Nazwa":"1221","Poziom":121221,"CzasRzucania":212.0,"Zasieg":121221.0,"Komponenty":"211221","CzasTrwania":211212.0,"Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl12345678910"}
 przerwa2
 {"UmiejetnoscDoRzucaniaCzarow":1}
-{"ListaNotatek":[{"instanceID":-1010900}]}
+{"ListaNotatek":[{"instanceID":-692602},{"instanceID":-692604}]}
 {"NotatkaText":"esaeaseaseaseasdasdasdas"}
+{"NotatkaText":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl"}
 przerwa3
-{"ListaKorzysciAndZdolnosci":[{"instanceID":-1001862}]}
+{"ListaKorzysciAndZdolnosci":[{"instanceID":-692606}]}
 {"Nazwa":"palenie fajki","Opis":"palisz se  szluga i sie leczysz","level":1}
 przerwa4
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
-{"PosiadaneBronie":[{"instanceID":-1001864},{"instanceID":-1001866}]}
+{"PosiadaneBronie":[{"instanceID":-692608},{"instanceID":-692610}]}
 {"Nazwa":"23","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"","Opis":"ewwqeqweqw"}
 {"Nazwa":"essa","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":1,"Obrazenia":"eewsasas","Opis":"easease"}
 przerwa5
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
 {"Uzbrojenie":"wszystkie zbroje, bornie i tarcze","Narzedzia":"przewóz, przybory kuchenne, narzędzia kowala, zestaw piwowara, narzędzia murarskie","Jezyki":"wspólny, krasnoludzki","Inne":"Kamienie - biegłość gdy historia kamienia (gdy mam biegłość w historii to podwaja biegłość)"}
-{"sila":18,"zrecznosc":13,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":2}
+{"sila":18,"zrecznosc":13,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":3}
 {"Pochodzenie":"Bohater Ludowy","Charakter":4,"CechyOsobowosci":"zrzędliwy, uparty, przywódczy, zmęczony życiem, ukrywa przeszłośc, nie chce zawiązywać relacji, lubi zwierzęta","Idealy":"brak","Wiezi":"brak","Slabosci":"---","Historia":"urodził się gdzieś, potem coś się stało i potem coś jeszcze i potem jeszcze i podjął się zlecenia","Wyglad":"1,47 metra. 117 lat. Skóra dość ciemna i pomarszczona. Czarne długie rozpuszczone włosy. Długa broda i kilka warkoczyków na niej."}
 {"sila":true,"zrecznosc":false,"kondycja":true,"inteligencja":false,"madrosc":false,"charyzma":false}
 {"akrobatyka":false,"atletyka":false,"historia":false,"intuicja":true,"medycyna":false,"opiekaNadZwierzetami":true,"oszustwo":false,"percepcja":false,"perswazja":false,"przyroda":false,"religia":false,"skradanieSie":false,"sztukaPrzetrwania":true,"sledztwo":false,"wiedzaTajemna":false,"wystepy":false,"zastraszanie":true,"zwinneDlonie":false}
