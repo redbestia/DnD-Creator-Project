@@ -6,9 +6,9 @@ public class Czar : ScriptableObject
 {
     public string Nazwa = "";
     public int Poziom = 0;
-    public float CzasRzucania = 0.0f;
-    public float Zasieg = 0.0f;
+    public string CzasRzucania = "";
+    public string Zasieg = "";
     public string Komponenty = "";
-    public float CzasTrwania = 0.0f;
+    public string CzasTrwania = "";
     public string Opis = "";
 }
