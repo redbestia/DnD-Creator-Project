@@ -26,6 +26,6 @@ public class EditCzar : MonoBehaviour
         _objectInListReference.CzarObiekt.Opis = _opisIF.text;
 
         GameObject.FindGameObjectWithTag(Tagi.SpawnerCzarTag).
-            GetComponent<SpawnerPrzedmiot>().Spawn();
+            GetComponent<SpawnerCzar>().Spawn();
     }
 }

@@ -1,25 +1,29 @@
 {"ID":0}
 {"nazwaPostaci":"Adrik","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
-{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-692594}]}
+{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-1524810},{"instanceID":-1524812}]}
 {"Nazwa":"esaeaseaseeas","Ilosc":12.0}
+{"Nazwa":"psia kupa","Ilosc":69.0}
 przerwa1
-{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[2,0,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-692596},{"instanceID":-692598},{"instanceID":-692600}]}
-{"Nazwa":"Light","Poziom":0,"CzasRzucania":121.0,"Zasieg":2.0,"Komponenty":"V, M","CzasTrwania":1.0,"Opis":"srasz se do ryja i jest fajnie"}
-{"Nazwa":"Essa","Poziom":23,"CzasRzucania":2332.0,"Zasieg":3223.0,"Komponenty":"3232","CzasTrwania":3223.0,"Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl1234567891011"}
-{"Nazwa":"1221","Poziom":121221,"CzasRzucania":212.0,"Zasieg":121221.0,"Komponenty":"211221","CzasTrwania":211212.0,"Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl12345678910"}
+{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[1,1,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-1524814},{"instanceID":-1524816},{"instanceID":-1524818},{"instanceID":-1524820}]}
+{"Nazwa":"Light","Poziom":0,"CzasRzucania":"121.000000","Zasieg":"2.000000","Komponenty":"V, M","CzasTrwania":"1.000000","Opis":"srasz se do ryja i jest fajnie"}
+{"Nazwa":"Essa","Poziom":23,"CzasRzucania":"AEERASERAS","Zasieg":"ASEEASEASAW","Komponenty":"3232","CzasTrwania":"EASAESASEESA","Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl1234567891011"}
+{"Nazwa":"1221","Poziom":121221,"CzasRzucania":"212.000000","Zasieg":"121221.000000","Komponenty":"211221","CzasTrwania":"211212.000000","Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl12345678910"}
+{"Nazwa":"DFGDFRDT","Poziom":0,"CzasRzucania":"RTERT","Zasieg":"RETRETT","Komponenty":"RETERTRE","CzasTrwania":"TRTRE","Opis":"TRTRETRERTE"}
 przerwa2
-{"UmiejetnoscDoRzucaniaCzarow":1}
-{"ListaNotatek":[{"instanceID":-692602},{"instanceID":-692604}]}
+{"UmiejetnoscDoRzucaniaCzarow":2}
+{"ListaNotatek":[{"instanceID":-1524822},{"instanceID":-1524824}]}
 {"NotatkaText":"esaeaseaseaseasdasdasdas"}
 {"NotatkaText":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl"}
 przerwa3
-{"ListaKorzysciAndZdolnosci":[{"instanceID":-692606}]}
+{"ListaKorzysciAndZdolnosci":[{"instanceID":-1524826},{"instanceID":-1524828}]}
 {"Nazwa":"palenie fajki","Opis":"palisz se  szluga i sie leczysz","level":1}
+{"Nazwa":"dsasadsasadsasad","Opis":"dsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasa","level":15}
 przerwa4
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
-{"PosiadaneBronie":[{"instanceID":-692608},{"instanceID":-692610}]}
+{"PosiadaneBronie":[{"instanceID":-1524830},{"instanceID":-1524832},{"instanceID":-1524834}]}
 {"Nazwa":"23","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"","Opis":"ewwqeqweqw"}
-{"Nazwa":"essa","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":1,"Obrazenia":"eewsasas","Opis":"easease"}
+{"Nazwa":"essa","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"2k10","Opis":"easease"}
+{"Nazwa":"Włócznia","RodzajBroni":2,"CzyBieglosc":true,"RodzajObrazen":0,"Obrazenia":"2k6","Opis":"Można rzucać na 8/16 m"}
 przerwa5
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
 {"Uzbrojenie":"wszystkie zbroje, bornie i tarcze","Narzedzia":"przewóz, przybory kuchenne, narzędzia kowala, zestaw piwowara, narzędzia murarskie","Jezyki":"wspólny, krasnoludzki","Inne":"Kamienie - biegłość gdy historia kamienia (gdy mam biegłość w historii to podwaja biegłość)"}
