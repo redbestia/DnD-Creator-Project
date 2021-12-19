@@ -5366,7 +5366,7 @@ MonoBehaviour:
   _tlo: {fileID: 1832256042}
   _canvasSkala: {fileID: 685386434}
   _xDefaultSpawn: 620
-  _yDefaultSpawn: 920.24
+  _yDefaultSpawn: 1020.24
   _yAddedHeight: 200
   _baseHeightTlo: 4700
   _baseHeightCanvasSkala: 0
@@ -22615,7 +22615,7 @@ MonoBehaviour:
   _tlo: {fileID: 1318242271}
   _canvasSkala: {fileID: 1138079106}
   _xDefaultSpawn: 620
-  _yDefaultSpawn: 720
+  _yDefaultSpawn: 820
   _yAddedHeight: 280
   _baseHeightTlo: 4700
   _baseHeightCanvasSkala: 0
@@ -35315,7 +35315,7 @@ MonoBehaviour:
   _tlo: {fileID: 874015806}
   _canvasSkala: {fileID: 1169897613}
   _xDefaultSpawn: 620
-  _yDefaultSpawn: 720
+  _yDefaultSpawn: 820
   _yAddedHeight: 200
   _baseHeightTlo: 4700
   _baseHeightCanvasSkala: 0
@@ -49048,7 +49048,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &905654704
 Canvas:
   m_ObjectHideFlags: 0
@@ -61572,7 +61572,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1169897617
 Canvas:
   m_ObjectHideFlags: 0
@@ -65123,7 +65123,7 @@ MonoBehaviour:
   _tlo: {fileID: 1458488309}
   _canvasSkala: {fileID: 569430342}
   _xDefaultSpawn: 620
-  _yDefaultSpawn: 720
+  _yDefaultSpawn: 820
   _yAddedHeight: 420
   _baseHeightTlo: 4700
   _baseHeightCanvasSkala: -2000
@@ -77830,7 +77830,7 @@ MonoBehaviour:
   _tlo: {fileID: 673675700}
   _canvasSkala: {fileID: 283641885}
   _xDefaultSpawn: 620
-  _yDefaultSpawn: 850
+  _yDefaultSpawn: 950
   _yAddedHeight: 240
   _baseHeightTlo: 4700
   _baseHeightCanvasSkala: -680
