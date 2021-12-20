@@ -1,33 +1,44 @@
 {"ID":0}
 {"nazwaPostaci":"Adrik","Klasa":"Wojownik","Poziom":3,"Rasa":"Krasnolud górski","HPMax":26,"HPAktualne":18,"notka":"ogłuszony"}
-{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-1524810},{"instanceID":-1524812}]}
+{"sztukiMiedzi":6969,"sztukiSrebra":46554,"sztukiElektrum":545,"sztukiZlota":64554,"sztukiPlatyny":546,"ListaPrzedmiotow":[{"instanceID":-309862},{"instanceID":-309864},{"instanceID":-309866},{"instanceID":-309868},{"instanceID":-309870},{"instanceID":-309872},{"instanceID":-309874},{"instanceID":-309876}]}
 {"Nazwa":"esaeaseaseeas","Ilosc":12.0}
 {"Nazwa":"psia kupa","Ilosc":69.0}
+{"Nazwa":"121","Ilosc":0.0}
+{"Nazwa":"1212","Ilosc":0.0}
+{"Nazwa":"12121","Ilosc":0.0}
+{"Nazwa":"12121","Ilosc":0.0}
+{"Nazwa":"121212","Ilosc":0.0}
+{"Nazwa":"121212","Ilosc":0.0}
 przerwa1
-{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[1,1,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-1524814},{"instanceID":-1524816},{"instanceID":-1524818},{"instanceID":-1524820}]}
+{"KomorkiMax":[4,2,3,1,0,0,0,0,0],"KomorkiAktualne":[1,1,1,1,0,0,0,0,0],"ListaCzarow":[{"instanceID":-309878},{"instanceID":-309880},{"instanceID":-309882},{"instanceID":-309884}]}
 {"Nazwa":"Light","Poziom":0,"CzasRzucania":"121.000000","Zasieg":"2.000000","Komponenty":"V, M","CzasTrwania":"1.000000","Opis":"srasz se do ryja i jest fajnie"}
 {"Nazwa":"Essa","Poziom":23,"CzasRzucania":"AEERASERAS","Zasieg":"ASEEASEASAW","Komponenty":"3232","CzasTrwania":"EASAESASEESA","Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl1234567891011"}
 {"Nazwa":"1221","Poziom":121221,"CzasRzucania":"212.000000","Zasieg":"121221.000000","Komponenty":"211221","CzasTrwania":"211212.000000","Opis":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl12345678910"}
 {"Nazwa":"DFGDFRDT","Poziom":0,"CzasRzucania":"RTERT","Zasieg":"RETRETT","Komponenty":"RETERTRE","CzasTrwania":"TRTRE","Opis":"TRTRETRERTE"}
 przerwa2
 {"UmiejetnoscDoRzucaniaCzarow":2}
-{"ListaNotatek":[{"instanceID":-1524822},{"instanceID":-1524824}]}
+{"ListaNotatek":[{"instanceID":-309886},{"instanceID":-309888},{"instanceID":-309890}]}
 {"NotatkaText":"esaeaseaseaseasdasdasdas"}
 {"NotatkaText":"drsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjldrsr;joskjrklsejrlksjelkjse4kljlkes4jeslk4jklesj4lesjkjklkjlkjl"}
+{"NotatkaText":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
 przerwa3
-{"ListaKorzysciAndZdolnosci":[{"instanceID":-1524826},{"instanceID":-1524828}]}
+{"ListaKorzysciAndZdolnosci":[{"instanceID":-309892},{"instanceID":-309894},{"instanceID":-309896}]}
 {"Nazwa":"palenie fajki","Opis":"palisz se  szluga i sie leczysz","level":1}
 {"Nazwa":"dsasadsasadsasad","Opis":"dsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasadsasa","level":15}
+{"Nazwa":"32","Opis":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","level":121}
 przerwa4
 {"KlasaPancerza":"17+2","Szybkosc":7.5}
-{"PosiadaneBronie":[{"instanceID":-1524830},{"instanceID":-1524832},{"instanceID":-1524834}]}
-{"Nazwa":"23","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"","Opis":"ewwqeqweqw"}
+{"PosiadaneBronie":[{"instanceID":-309898},{"instanceID":-309900},{"instanceID":-309902},{"instanceID":-309904},{"instanceID":-309906},{"instanceID":-309908}]}
+{"Nazwa":"23","RodzajBroni":2,"CzyBieglosc":true,"RodzajObrazen":2,"Obrazenia":"1k6","Opis":"ewwqeqweqw"}
 {"Nazwa":"essa","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"2k10","Opis":"easease"}
-{"Nazwa":"Włócznia","RodzajBroni":2,"CzyBieglosc":true,"RodzajObrazen":0,"Obrazenia":"2k6","Opis":"Można rzucać na 8/16 m"}
+{"Nazwa":"Włócznia","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"2k6","Opis":"Można rzucać na 8/16 m"}
+{"Nazwa":"3232","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"12","Opis":"1343214"}
+{"Nazwa":"asas","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"32213","Opis":"1343214"}
+{"Nazwa":"3232","RodzajBroni":2,"CzyBieglosc":false,"RodzajObrazen":2,"Obrazenia":"34341","Opis":"1343214"}
 przerwa5
 {"Sukcesy":[true,false,true],"Porazki":[false,true,false]}
 {"Uzbrojenie":"wszystkie zbroje, bornie i tarcze","Narzedzia":"przewóz, przybory kuchenne, narzędzia kowala, zestaw piwowara, narzędzia murarskie","Jezyki":"wspólny, krasnoludzki","Inne":"Kamienie - biegłość gdy historia kamienia (gdy mam biegłość w historii to podwaja biegłość)"}
-{"sila":18,"zrecznosc":13,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":3}
+{"sila":15,"zrecznosc":2,"kondycja":15,"inteligencja":9,"madrosc":12,"charyzma":10,"bieglosc":2,"kosciWytrzymalosci":10,"aktualnaIloscKosciWytrzymalosci":3}
 {"Pochodzenie":"Bohater Ludowy","Charakter":4,"CechyOsobowosci":"zrzędliwy, uparty, przywódczy, zmęczony życiem, ukrywa przeszłośc, nie chce zawiązywać relacji, lubi zwierzęta","Idealy":"brak","Wiezi":"brak","Slabosci":"---","Historia":"urodził się gdzieś, potem coś się stało i potem coś jeszcze i potem jeszcze i podjął się zlecenia","Wyglad":"1,47 metra. 117 lat. Skóra dość ciemna i pomarszczona. Czarne długie rozpuszczone włosy. Długa broda i kilka warkoczyków na niej."}
 {"sila":true,"zrecznosc":false,"kondycja":true,"inteligencja":false,"madrosc":false,"charyzma":false}
 {"akrobatyka":false,"atletyka":false,"historia":false,"intuicja":true,"medycyna":false,"opiekaNadZwierzetami":true,"oszustwo":false,"percepcja":false,"perswazja":false,"przyroda":false,"religia":false,"skradanieSie":false,"sztukaPrzetrwania":true,"sledztwo":false,"wiedzaTajemna":false,"wystepy":false,"zastraszanie":true,"zwinneDlonie":false}

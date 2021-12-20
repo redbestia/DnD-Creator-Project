@@ -2095,7 +2095,7 @@ GameObject:
   - component: {fileID: 8216246304022807094}
   - component: {fileID: 8216246304022807095}
   m_Layer: 5
-  m_Name: OpisText
+  m_Name: NazwaText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2117,8 +2117,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -51, y: -64}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: -89.89633, y: -35.958435}
+  m_SizeDelta: {x: 51.1037, y: 21.9585}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8216246304022807094
 CanvasRenderer:
@@ -2640,8 +2640,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -51, y: -139.88}
-  m_SizeDelta: {x: 90, y: 50}
+  m_AnchoredPosition: {x: -100.75113, y: -110.48163}
+  m_SizeDelta: {x: 40.2489, y: 20.6016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2286846346954738698
 CanvasRenderer:

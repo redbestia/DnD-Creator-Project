@@ -88,29 +88,29 @@ public class SpawnerBron : MonoBehaviour
                 {
                     int bieglosc = 0;
                     if (item.CzyBieglosc)
-                        bieglosc = _data.bieglosc;
+                        bieglosc = _data.bieglosc ;
 
                     if(item.RodzajBroni == RodzajBroni.Bia³a)
                     {
-                        _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.sila + bieglosc).ToString();
+                        _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.sila ) + bieglosc).ToString();
                     }
                     else if (item.RodzajBroni == RodzajBroni.Dystansowa)
                     {
-                        _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.zrecznosc + bieglosc).ToString();
+                        _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.zrecznosc ) + bieglosc).ToString();
                     }
                     else if (item.RodzajBroni == RodzajBroni.Finezyjna)
                     {
                         if (_data.zrecznosc > _data.sila)
                         {
-                            _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.zrecznosc + bieglosc).ToString();
+                            _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.zrecznosc ) + bieglosc).ToString();
                         }
                         else
                         {
-                            _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.sila + bieglosc).ToString();
+                            _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.sila ) + bieglosc).ToString();
                         }
                     }
                 }
@@ -225,25 +225,25 @@ public class SpawnerBron : MonoBehaviour
 
                     if (item.RodzajBroni == RodzajBroni.Bia³a)
                     {
-                        _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.sila + bieglosc).ToString();
+                        _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.sila) + bieglosc).ToString();
                     }
                     else if (item.RodzajBroni == RodzajBroni.Dystansowa)
                     {
-                        _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.zrecznosc + bieglosc).ToString();
+                        _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.zrecznosc) + bieglosc).ToString();
                     }
                     else if (item.RodzajBroni == RodzajBroni.Finezyjna)
                     {
                         if (_data.zrecznosc > _data.sila)
                         {
-                            _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.zrecznosc + bieglosc).ToString();
+                            _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.zrecznosc) + bieglosc).ToString();
                         }
                         else
                         {
-                            _listOfTextMeshProUGUIs[j].text = GlowneStatystyki.
-                            ModfikatorStatic(_data.sila + bieglosc).ToString();
+                            _listOfTextMeshProUGUIs[j].text = (GlowneStatystyki.
+                            ModfikatorStatic(_data.sila) + bieglosc).ToString();
                         }
                     }
                 }
